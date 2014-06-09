@@ -57,16 +57,26 @@ node default {
   include git
   include hub
   include nginx
+  include postgresql
+  include googledrive
+  include solr
+  include screenhero
 
-  # fail if FDE is not enabled
+  include heroku
+  heroku::plugin { 'pipeline':
+    source => 'heroku/heroku-pipeline'
+  }
+  #  fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
   }
 
   # node versions
-  include nodejs::v0_6
-  include nodejs::v0_8
   include nodejs::v0_10
+
+  nodejs::module { 'phantomjs':
+    node_version => "v0.10"
+  }
 
   # default ruby versions
   ruby::version { '1.9.3': }
@@ -83,7 +93,7 @@ node default {
     ]:
   }
 
-  file { "${boxen::config::srcdir}/our-boxen":
+    file { "${boxen::config::srcdir}/cur=-boxen":
     ensure => link,
     target => $boxen::config::repodir
   }
