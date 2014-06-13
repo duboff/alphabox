@@ -64,6 +64,11 @@ GITHUBTARBALL
     java (1.5.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-licecap
+  specs:
+    licecap (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.3)
@@ -112,6 +117,11 @@ GITHUBTARBALL
   remote: boxen/puppet-screenhero
   specs:
     screenhero (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-skitch
+  specs:
+    skitch (1.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-solr
@@ -178,6 +188,7 @@ DEPENDENCIES
   hub (= 1.3.0)
   inifile (= 1.0.3)
   java (>= 0)
+  licecap (>= 0)
   module-data (= 0.0.3)
   nginx (= 1.4.3)
   nodejs (= 3.7.0)
@@ -191,6 +202,7 @@ DEPENDENCIES
   repository (= 2.3.0)
   ruby (= 8.0.3)
   screenhero (>= 0)
+  skitch (>= 0)
   solr (>= 0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)

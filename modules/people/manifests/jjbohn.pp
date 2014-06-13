@@ -5,4 +5,6 @@ class people::jjbohn {
   include flux::beta
   include reattach_to_user_namespace
   include dash
+  include licecap
+  include skitch
 }
