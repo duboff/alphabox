@@ -7,4 +7,6 @@ class people::jjbohn {
   include dash
   include licecap
   include skitch
+
+  package { "tree": }
 }
