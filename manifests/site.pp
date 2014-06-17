@@ -74,6 +74,7 @@ node default {
 
   # node versions
   include nodejs::v0_10
+  class { 'nodejs::global': version => 'v0.10' }
 
   nodejs::module { 'phantomjs':
     node_version => "v0.10"
