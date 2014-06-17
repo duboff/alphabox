@@ -116,7 +116,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (8.0.3)
+    ruby (8.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-screenhero
@@ -206,7 +206,7 @@ DEPENDENCIES
   rdio (>= 0)
   reattach_to_user_namespace (~> 1.0)
   repository (= 2.3.0)
-  ruby (= 8.0.3)
+  ruby (= 8.1.1)
   screenhero (>= 0)
   skitch (>= 0)
   solr (>= 0)
