@@ -61,6 +61,7 @@ node default {
   include googledrive
   include solr
   include screenhero
+  include mongodb
 
   include heroku
   heroku::plugin { 'pipeline':
