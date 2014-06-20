@@ -134,10 +134,8 @@ This template project provides the following by default:
 * Node.js 0.6
 * Node.js 0.8
 * Node.js 0.10
-* Ruby 1.9.3
 * Ruby 2.0.0
-* Ruby 2.1.0
-* Ruby 2.1.1
+* Ruby 2.1.2
 * ack
 * Findutils
 * GNU tar
