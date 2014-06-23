@@ -14,6 +14,11 @@ GITHUBTARBALL
     dnsmasq (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-flowdock
+  specs:
+    flowdock (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-flux
   specs:
     flux (1.0.1)
@@ -182,6 +187,7 @@ DEPENDENCIES
   boxen (= 3.4.2)
   dash (>= 0)
   dnsmasq (= 1.0.1)
+  flowdock (>= 0)
   flux (>= 0)
   foreman (= 1.2.0)
   gcc (= 2.0.100)

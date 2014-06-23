@@ -62,6 +62,7 @@ node default {
   include solr
   include screenhero
   include mongodb
+  include flowdock
 
   include heroku
   heroku::plugin { 'pipeline':
