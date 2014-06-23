@@ -97,9 +97,4 @@ node default {
       'gnu-tar'
     ]:
   }
-
-    file { "${boxen::config::srcdir}/cur=-boxen":
-    ensure => link,
-    target => $boxen::config::repodir
-  }
 }
