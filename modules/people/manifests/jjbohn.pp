@@ -9,4 +9,9 @@ class people::jjbohn {
   include skitch
 
   package { "tree": }
+
+  ruby_gem { "rcodetools":
+    gem => "rcodetools",
+    ruby_version => "*",
+  }
 }
