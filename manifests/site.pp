@@ -63,6 +63,9 @@ node default {
   include screenhero
   include mongodb
   include flowdock
+  include pcre
+  include swig
+  include graphviz
 
   include heroku
   heroku::plugin { 'pipeline':
