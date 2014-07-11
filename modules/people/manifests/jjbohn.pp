@@ -10,6 +10,7 @@ class people::jjbohn {
 
   package { "tree": }
   package { "wrk": }
+  package { "maven": }
 
   ruby_gem { "rcodetools":
     gem => "rcodetools",
